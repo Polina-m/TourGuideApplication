@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="@dimen/column_width">
+
+    <ImageView
+        android:id="@+id/placeImage"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/placeName"
+        android:layout_width="155dp"
+        android:layout_height="154dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textAppearance="@android:style/TextAppearance.Material.Button"
+        app:layout_constraintBottom_toBottomOf="@+id/placeImage"
+        app:layout_constraintEnd_toEndOf="@+id/placeImage"
+        app:layout_constraintStart_toStartOf="@+id/placeImage"
+        app:layout_constraintTop_toTopOf="@+id/placeImage"
+        tools:text="@string/museum_naturalHistory" />
+</android.support.constraint.ConstraintLayout>
+
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--android:orientation="vertical" android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent">-->
+
+<!--<TextView-->
+    <!--android:layout_width="60sp"-->
+    <!--android:textSize="15sp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/grid_item_label"-->
+    <!--android:layout_weight="0.8"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:text="Letter" />-->
+
+<!--</LinearLayout>-->

@@ -1,0 +1,112 @@
+<resources>
+    <!-- Application name  -->
+    <string name="app_name">Helsinki Guide Application</string>
+
+    <!-- Category name for museums [CHAR LIMIT=20] -->
+    <string name="category_museums">Museums</string>
+    <string name="category_museumsTitle">Museums in Helsinki</string>
+
+    <!-- Category name for the theaters [CHAR LIMIT=20] -->
+    <string name="category_theaters">Theaters</string>
+    <string name="category_theatersTitle">Theaters in Helsinki</string>
+
+    <!-- Category name for the parks [CHAR LIMIT=20] -->
+    <string name="category_park">Park</string>
+    <string name="category_parkTitle">Park in Helsinki</string>
+
+    <!-- Category name and lables' names for the cafe [CHAR LIMIT=20] -->
+    <string name="category_cafe">Cafe</string>
+    <string name="category_cafeTitle">Cafe in Helsinki</string>
+    <string name="address">Address</string>
+    <string name="openHours">Open Hours</string>
+
+
+    <!-- List of the Museums' Names [CHAR LIMIT=26] -->
+    <string name="museum_national">National Museum</string>
+    <string name="museum_city">Helsinki City Museum</string>
+    <string name="museum_university">Helsinki University Museum</string>
+    <string name="museum_naturalHistory">Museum of Natural History</string>
+    <string name="museum_ateneum">Ateneum Art Museum</string>
+    <string name="museum_sinebrychoff">Sinebrychoff Art Museum</string>
+    <string name="museum_kiasma">Kiasma Art Museum</string>
+    <string name="museum_design">Design Museum</string>
+
+    <!-- List of the Theaters' Names [CHAR LIMIT=25] -->
+    <string name="theater_alexander">Alexander Theatre</string>
+    <string name="theater_city">Helsinki City Theatre</string>
+    <string name="theater_svenska">Swedish Theatre</string>
+    <string name="theater_national">Finnish National Theater</string>
+
+    <!-- List of the Parks' Names and info -->
+    <string name="park_cherry">Cherry Tree Park</string>
+    <string name="park_cherry_address"> Jättiläisenpolku 1</string>
+    <string name="park_cherry_hours">24 hours</string>
+    <string name="park_cherry_about">Kirsikkapuisto (Cherry Park, Sakura Park) opened in 2007 is part of the Roihuvuori green area.
+        There are 152 pink blossomed cherry trees in the park that were planted following sponsorship from the Japanese community
+        in Helsinki. In spring the Japanese Hanami festival is celebrated here when the trees are in bloom. The festival takes
+        place when the cherry trees are in blossom, so the exact dates vary each year according to weather conditions.
+    </string>
+
+    <string name="park_kaisaniemi">Kaisaniemi Park</string>
+    <string name="park_kaisaniemi_address">Unioninkatu 44</string>
+    <string name="park_kaisaniemi_hours">10.00AM - 5.00PM</string>
+    <string name="park_kaisaniemi_about">The Kaisaniemi Botanic Garden is one of most popular visitor attractions in Helsinki.
+        The garden is situated very close to the city centre, and its glasshouses
+        and surrounding grounds offer nature lovers a unique experience all year round.
+        The glasshouses of the Kaisaniemi Botanic Garden bring a tropical breeze into the routines of the week.
+        The lush Rainforest House presents the coffee bush and the strangler fig, and in the Palm House, the visitor can see not
+        only biggest seed in the world, but also an impressive collection of orchids.
+        The outdoor garden attracts the visitor to experience the world of plants. In summertime,
+        perhaps the most attractive part of the grounds is the central garden, an open area with ponds and flowers,
+        bordered by the glasshouses and rose bushes. There are also events with different themes organized at the Kaisaniemi botanical garden.
+    </string>
+
+    <string name="park_alppiruusu">Rhododendron Park</string>
+    <string name="park_alppiruusu_address">Kanukalliontie</string>
+    <string name="park_alppiruusu_hours">24 hours</string>
+    <string name="park_alppiruusu_about">Rhododendron Park in Haaga is a true gem that deserves to be seen by all visitors to Helsinki
+        when the plants are in bloom. The grounds serve as both a public park and a university research garden. The park has two parts:
+        the evergreen rhododendrons grow in the southern section, while the seasonal park azaleas grow on the other side of the power
+        lines in the northern section. The peak blooming season for both the rhododendrons and the azaleas is early June. The azaleas bloom first
+        and sometimes longer than the rhododendrons, even after midsummer. The splendour of the flowers varies with each year; generally a
+        good year is followed by a more modest one. Pine trees create a canopy for the flowering plants. Thousands of Helsinki residents
+        and gardening enthusiasts visit the park each year to witness the spectacle.
+    </string>
+
+
+
+    <!-- List of the Cafe' Names and info -->
+    <string name="cafe_fazer">Karl Fazer Café</string>
+    <string name="cafe_fazer_address">Kluuvikatu 3</string>
+    <string name="cafe_fazer_hours">7.30AM - 10.00PM</string>
+    <string name="cafe_fazer_about">Ever since it first opened in 1891,
+    Fazer’s café has been a gathering place for friends, families and relatives who want to spend some special time together.
+        Many older locals remember their grandparents buying them ice creams at the legendary café when they were kids.
+        Some of the classic confectionaries that were served on the opening day, including Bebe, Kinuski and Tumma,
+        are still sold to this day alongside more recent arrivals, such as Finland 100 confectionaries, pulled oats and avocado sandwiches, and other trendy snacks.
+    </string>
+
+    <string name="cafe_esplanad">Café Esplanad</string>
+    <string name="cafe_esplanad_address">Pohjoisesplanadi 37</string>
+    <string name="cafe_esplanad_hours">8.00AM - 9.00PM</string>
+    <string name="cafe_esplanad_about">Café Esplanad is well known for its central European atmosphere and style
+        and especially for its huge cinnamon rolls (a Finnish sweet pastry called Korvapuusti)
+        that are baked in the cafés own bakery. On the outdoor terrace one can also enjoy the sun.</string>
+
+    <string name="cafe_brooklyn">Brooklyn Café</string>
+    <string name="cafe_brooklyn_address">Fredrikinkatu 19</string>
+    <string name="cafe_brooklyn_hours">7.30AM - 7.00PM</string>
+    <string name="cafe_brooklyn_about">The Brooklyn Cafe and Bakery offers a genuine New York atmosphere on Fredrikinkatu
+        in the Punavuori district. The Brooklyn Cafe opened almost a decade ago and expanded a year later by opening a bakery,
+        as its cupcakes in particular rapidly became a big hit among locals. You can enjoy their treats in the cosy café
+        or place an order from the bakery to bring home with you – perfect for parties.</string>
+
+    <string name="cafe_aalto">Café Aalto</string>
+    <string name="cafe_aalto_address">Pohjoisesplanadi 39</string>
+    <string name="cafe_aalto_hours">8.00AM - 6.00PM</string>
+    <string name="cafe_aalto_about">Grab a newspaper from downstairs and then head upstairs to the iconic Café Aalto,
+        where you can read about world affairs over a nice cup of tea. Or stock up on books before meeting a friend for lunch and tea.
+        Café Aalto is always stylish and a guaranteed classic.</string>
+
+
+</resources>

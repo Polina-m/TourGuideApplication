@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_card"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/row_height"
+    android:layout_margin="@dimen/small"
+    android:minHeight="@dimen/row_height">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/row_height"
+        android:layout_height="@dimen/row_height"
+        app:layout_constraintBottom_toBottomOf="@+id/address_textView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <android.support.constraint.Barrier
+        android:id="@+id/barrier3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="start"
+        app:constraint_referenced_ids="address_textView,name_textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/name_textView"
+        style="@style/CustomCategoryTitleStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medium"
+        app:layout_constraintStart_toStartOf="@+id/address_textView"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Name of the cafe" />
+
+    <TextView
+        android:id="@+id/address_textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/medium"
+        android:layout_marginStart="@dimen/medium"
+        android:layout_marginTop="@dimen/small"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/name_textView"
+        tools:text="address" />
+
+    <ImageView
+        android:layout_width="@dimen/arrow_size"
+        android:layout_height="@dimen/arrow_size"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/small"
+        android:layout_marginRight="@dimen/small"
+        android:src="@drawable/ic_keyboard_arrow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small">8dp</dimen>
+    <dimen name="medium">16dp</dimen>
+    <dimen name="column_width">170dp</dimen>
+    <dimen name="row_height">100dp</dimen>
+    <dimen name="arrow_size">24dp</dimen>
+
+    <dimen name="textTitle">26sp</dimen>
+    <dimen name="textSixe">14sp</dimen>
+
+</resources>
